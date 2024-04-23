@@ -1,0 +1,252 @@
+
+.productdetails{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.pdleft{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pdmainimg{
+    height: 73vh;
+    width: 26vw;
+    object-fit: cover;
+    padding: 24px 54px 0 0;
+    border-radius: 2px;
+}
+
+.carouselimg{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 10px 0 0;
+}
+
+
+.pdcarimg{
+    height: 134px;
+    width: 112px;
+    object-fit: cover;
+    margin: 0px 0px 10px 0;
+    border-radius: 2px;
+}
+
+.pdright{
+    width: 50%;
+    padding: 14px 0 0 0;
+}
+
+.pdbrand{
+    margin: 14px 0 0 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #868686;
+}
+
+
+.pdbrandname{
+    color: #592828;
+    font-weight: 800;
+}
+
+.pdtitle{
+    margin: 10px 0 0 0;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.pddesc{
+    margin: 12px 0 0 0;
+    font-size: 15px;
+    font-weight: 300;
+    width: 40vw;
+    line-height: 26px;
+}
+
+.star{
+    height: 16px;
+    margin: 0 4px 0 0;
+}
+
+.rating{
+    display: flex;
+    border: solid;
+    border-width: 1px;
+    border-color: #d0cfcf;
+    border-radius: 2px;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 6px 7px;
+    margin: 14px 0 0 0;
+}
+
+.veritcalline{
+    width: 1px;
+    background-color: #cbcbcb;
+    height: 20px;
+    margin: 0 9px
+}
+
+.starrating{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.ratingT{
+    margin: 0;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #565656;
+}
+
+.pdhrline{
+    width: 41vw;
+    margin: 16px 0 0 0;
+    background-color: #d8d8d8;
+    height: 1px;
+    border: none;
+}
+
+.pdprice{
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0 0 0
+}
+
+.pdmainprice{
+    margin: 0 12px 0 0;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.pdmrp{
+    margin: 0 0 0 0;
+    font-size: 18px;
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 100;
+}
+
+.pddiscount{
+    margin: 0 0 0 12px;
+    font-weight: 700;
+    color: brown;
+    font-size: 17px;
+}
+
+.taxes{
+    margin: 8px 0 0 0;
+    color:     #049704;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sizeselect{
+    margin: 36px 0 0 0;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.sizebutton{
+    padding: 13px 21px;
+    border-radius: 4px;
+    border-color: #e3e3e3;
+    border-style: solid;
+    background-color: white;
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    margin: 19px 11px 0 0;
+}
+
+.sizebutton:hover{
+    cursor: pointer;
+    border: solid 2px #642c2c;
+    color: #653434;
+}
+
+.sizebutton.active{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.sizeguide{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: brown;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.purchasebuttondiv{   
+    margin: 36px 0 0 0;
+    display: flex;
+}
+
+.addtobag{
+    padding: 19px 111px;
+    background-color: #592828;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+
+.addtobag:hover{
+    cursor: pointer;
+    background-color: #462020;
+    transition: 0.3s ease-in-out;
+}
+
+.changeqty{
+    height: 54px;
+    width: 306px;
+    border: solid 3px #592828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s ease-in-out;
+}
+
+.plusminus{
+    height: 54px;
+    width: 86px;
+    background-color: #592828;
+    border-style: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.qtyno{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.wishlist{
+    padding: 17px 95px;
+    /* border-radius: 3px; */
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 0 8px;
+}
+
+

@@ -1,0 +1,131 @@
+.logindivmain{
+    height: 87.8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginbg{
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.logindivcontainer{
+    position: relative;
+    height: 88vh;
+    width: 198vh;
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #523c383d;
+}
+
+.loginview{
+    height: 76vh;
+    width: 67vw;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 9px 5px #0000001c;
+}
+
+.logindiv{
+    height: 76vh;
+    width: 67vw;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 9px 5px #0000001c;
+}
+
+.loginleftdiv{
+    /* background-color: green; */
+    margin: 44px 44px 0 50px
+}
+
+.lgnTitle{
+    margin: 34px 0 0 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.lgnDescription{
+    font-weight: 400;
+    margin: 12px 0 0 0;
+    font-size: 16px;
+}
+
+.input{
+    margin-top: 36px;
+}
+
+.lgnInputLabel{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.lgnInput{
+    border-bottom-style: solid;
+    border-top: 0px;
+    border-top-style: solid;
+    border-left: none;
+    border-right: none;
+    padding: 15px 0 12px 0;
+    width: 403px;
+    border-bottom-color: #c6c5c5;
+    font-size: 15px;
+    margin: 0 0 24px 0;
+}
+
+.lgnInput:focus {
+    border-top: 5px;
+    border-left: none;
+    border-right: none;
+    outline:none;
+}
+
+.lgnButton{
+    width: 403px;
+    height: 55px;
+    background-color: #3d2a26;
+    color: white;
+    border-style: none;
+    font-size: 18px;
+    margin: 40px 0 0 0;
+    border-radius: 2px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
+
+
+.lgnButton:hover{
+    cursor: pointer;
+    background-color: #462020;
+    transition: 0.3s ease-in-out;
+}
+
+.lgnError{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+
+
+
+.lgnImage{
+    height: 76vh;
+    width: 32vw;
+    object-fit: cover;
+    
+}

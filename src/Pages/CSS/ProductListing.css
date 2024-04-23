@@ -1,0 +1,163 @@
+.infobanner{
+    width: 100%;
+    height: 208px;
+    background-color: #d5c9e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infobannerimg{
+    height: 208px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.infobannerContent{
+    position: relative;
+    height: 208px;
+    width: 100%;
+    background-color: rgb(74 72 71 / 33%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+
+.infoBnrTitle{
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 0 0;
+    text-shadow: 0 0 20px #0000006b;
+}
+
+.infoBnrBreadcrumb{
+    margin: 11px 0 0 0;
+    font-size: 17px;
+    font-weight: 200;
+    color: white;
+    text-shadow: 0 0 20px #00000085;
+}
+
+.productlisting{
+    display: flex;
+    justify-content: space-between;
+    margin: 11px 0 0 0;
+}
+
+.leftfilter{
+    width: 15vw;
+    height: 85vh;
+    padding: 30px 30px 0 38px;
+}
+
+.lfdiv1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.lfdiv1left{
+    display: flex;
+    align-items: center;
+}
+
+.filtericon{
+    height: 20px;
+    margin: 0 9px 0 0;
+}
+
+.lfdiv1txt{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.reset{
+    font-size: 13px;
+    color: #592828;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.leftfilterhr{
+    border: solid;
+    border-width: 1px;
+    border-color: #00000029;
+}
+
+
+.filtertitle{
+    margin: 24px 0 12px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.filteremts{
+    margin: 0 0 7px 0
+}
+
+.filterElements{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.filterElements:hover{
+    cursor: pointer;
+}
+
+
+.filterElements input[type="checkbox"] {
+    display: none;
+}
+
+.filterElements .checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    margin: 0 12px 0 0;
+    background-color: #fff;
+    border: 1px solid #0000004a;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.filterElements .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.filterElements input:checked ~ .checkmark {
+    background-color:  #592828;
+}
+
+.filterElements input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+.prdctlistingright{
+    /* background-color: green; */
+    width: 81vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,28 @@
+.homeInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 65px 0 0 0px
+}
+
+.info{
+    display: flex;
+}
+
+.infoimg{
+    height: 68px;
+    margin: 0 19px 0 0;
+}
+
+.infoTitle{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 0 0;
+}
+
+.infoDesc{
+    height: 68px;
+    margin: 10px 0 0 0;
+    font-weight: 300;
+    font-size: 15px;
+}

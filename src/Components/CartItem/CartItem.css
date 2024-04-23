@@ -1,0 +1,301 @@
+.title{
+    padding-left: 234px;
+}
+
+.cart{
+    padding: 24px 234px 0 234px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    height: 200px;
+    width: 60%;
+}
+
+
+
+.cartitem{
+    height: 205px;
+    width: 100%;
+    margin: 0 0 14px 0;
+    border: solid 1px #00000038;
+    border-radius: 4px;
+    display: flex;
+}
+
+.cartimg{
+    height: 172px;
+    margin: 15px 0 0px 16px;
+    border-radius: 2px;
+}
+
+.cartitem2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 14px 0 0 14px;
+    width: 361px;
+}
+
+.carttitle{
+    margin: 0 0 0 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.brand{
+    margin: 6px 0 0 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.brandname{
+    margin: 0 0 0 0;
+    font-weight: 700;
+    color: #592828;
+}
+
+.pricediv{
+    display: flex;
+}
+
+.price{
+    margin: 0 8px 0 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.mrp{
+    margin: 0 8px 0 0;
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: 200;
+    color: #6f6f6f;
+}
+
+.discount{
+    margin: 2px 0 0 0;
+    font-size: 14px;
+    color: #049704;
+    font-weight: 600;
+}
+
+.buttondiv{
+    display: flex;
+}
+
+.btndiv{
+    display: flex;
+    margin: 0 18px 0 0;
+    border: solid 1px #00000038;
+    width: 78px;
+    height: 34px;
+    padding: 5px 10px 9px 10px;
+    justify-content: space-between;
+}
+
+.btndiv:hover{
+    cursor: pointer;
+    border: solid 1px #4a312980;
+}
+
+.left{
+
+}
+
+.btntxt{
+    margin: 0 0 0 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.btnqty{
+    font-size: 15px;
+    margin: 3px 0 0 0;
+    font-weight: 700;
+}
+
+.dropdownicon{
+    height: 16px;
+    margin: 2px 0 0 0;
+}
+
+.cartitem3{
+    display: flex;
+    margin: 21px 0 0 27px;
+    height: fit-content;
+}
+
+.icon{
+    background: none;
+    border: none;
+    margin: 0px 8px 0 0;
+}
+
+.delwishicon{
+    height: 23px;
+    opacity: 79%;
+}
+
+#remove:hover{
+    cursor: pointer;
+}
+
+.right{
+    width: 37%;
+}
+
+.cartsummary{
+    width: 100%;
+    border: solid 1px #00000038;
+    border-radius: 4px;
+    margin: 16px 0 0 0;
+    padding: 4px 0;
+}
+
+.cs{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px 0 22px 28px;
+}
+
+.csdesc{
+    margin: 0 0 0 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.csvalue{
+    margin: 0 0 0 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.csline{
+    border: solid 1px #0000001a;
+}
+
+.
+
+.carttotal{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 0 26px;
+}
+
+.safety{
+    border: solid 1px #00000038;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 14px 0;
+    border-radius: 4px;
+}
+
+.safety img{
+    height: 42px;
+}
+
+.safety p{
+    margin: 0 0 0 0;
+    width: 314px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.popupbg{
+    height: 100%;
+    width: 100%;
+    z-index:2;
+    background-color: rgba(0, 0, 0, 0.567);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.popup {
+    position: fixed;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px #0000006b;
+    background-color: white;
+    z-index: 3;
+    padding: 32px 48px;
+}
+
+/* Styling for the popup content */
+.popup-content {
+    text-align: center;
+}
+
+/* Styling for the trigger div */
+/* .trigger {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+} */
+
+.pptitle{
+    margin: 0 0 18px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ppvalues{
+    display: flex;
+    margin: 0 0 25px 0;
+}
+
+
+.sizes{
+    border: solid 2px #00000038;
+    margin: 0px 13px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 11px 19px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sizes:hover{
+    cursor: pointer;
+    border: solid 2px #462020;
+    color: #502525;
+}
+
+.popupbtndiv{
+    display: flex;
+    justify-content: center;
+}
+
+.ppbtn{
+    height: 57px;
+    width: 100%;
+    margin: 15px 0 0 0px;
+    background-color: #592828;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+}
+
+.ppbtn:hover{
+    cursor: pointer;
+    background-color: #462020;
+    transition: 0.3s ease-in-out;
+}
+

@@ -1,0 +1,122 @@
+/* color: rgb(69, 36, 30); */
+
+.navbardiv{
+    width: 100%;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 6px #00000024;
+}
+
+.logo{
+    font-family: "Caveat", cursive;
+    font-size: 53px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin: 0 0 0 38px;
+    color: #592828;
+    text-shadow: -2px 2px 1px #59282857;
+}
+
+.navCategories{
+    display: flex;
+}
+
+.navcats{
+    text-decoration: none;
+    color: black;
+}
+
+.navcatsP{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 22px 0 22px;
+    font-weight: 600;
+    position: relative;
+}
+
+.navcatsP:hover{
+    color: rgb(79, 42, 36);
+    
+}
+
+.activeLink{
+    color: rgb(114, 67, 61);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navhr{
+    position: absolute;
+    /* bottom: 0; */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0px;
+    border: none;
+    transition: width 0.3s ease-out;
+    margin: 4px 0 0 0
+}
+
+.navhractive{
+    width: 63%;
+    background-color: #72433d;
+    border: solid;
+    border-width: 1px;
+    height: 2px;
+}
+
+.nvbtns{
+    display: flex;
+    margin: 0 36px 0 0
+}
+
+.navbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0 0px 0 16px;
+    /* background-color: rgb(247, 246, 246); */
+    background-color: #ffffff00;
+}
+
+.cartdiv{
+    position: absolute;
+    margin: -21px 0px 0 -15px;
+}
+
+.circle{
+    height: 16px;
+    width: 16px;
+    background-color: brown;
+    position: relative;
+    margin: -34px 0px 0 -2px;
+    border-radius: 11px;
+}
+
+.cartvalue{
+    color: white;
+    font-size: 11px;
+    padding: 3px 0 0 0;
+}
+
+
+.navbtnimg{
+    height: 23px;
+    width: 22px;
+}
+
+.navbtntxt{
+    color: black;
+    margin: 0px 0 0 0;
+    font-size: 12px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+}
+
+.activenavbtn{
+    color: rgb(114, 67, 61);
+    font-weight: 800;
+}
